@@ -3,7 +3,7 @@ class Sentence{
 	public static void main(String args[]){
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter a sentence: ");
-		String sent=sc.next();
+		String sent=sc.nextLine();
 		System.out.println("Entered sentence is:\n\""+sent+"\"");
 		sc.close();
 	}
